@@ -1,0 +1,21 @@
+.lh-sm {
+  line-height: 0px !important;
+}
+
+.bg-color {
+  background: rgba(16, 254, 55, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(16, 254, 55, 0.3);
+}
+.form-control {
+  border-radius: 1em;
+}
+.form-button {
+  border-radius: 1.5em;
+}
+/* .navbar {
+  background: url(../../assets/img/bg/customBG.jpg);
+} */

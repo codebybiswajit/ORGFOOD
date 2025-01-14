@@ -1,0 +1,60 @@
+.card_selfmade {
+  background-size: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden; /* Prevent overflow */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent;
+  color: black;
+  border-radius: 50%;
+  padding: 1em;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../../assets/img/shape/leaves.png");
+  border: 2px solid #00ff51;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../assets/img/shape/leaves.png");
+  border: 2px solid #00ff51;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid {
+  text-align: justify;
+  line-height: 1;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

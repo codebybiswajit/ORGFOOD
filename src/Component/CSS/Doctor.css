@@ -1,0 +1,14 @@
+.doctor-card:hover {
+    transform: scale(1.05);
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+.contact-button:hover {
+    background-color: #45a049; 
+    color: white;
+    transform: scale(1.05);
+}
+.gap{
+    gap: 2px;
+}
